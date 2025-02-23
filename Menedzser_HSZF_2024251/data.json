@@ -1,0 +1,940 @@
+{
+    "teams": [
+        {
+            "team_id": 1,
+            "team_name": "Manchester United",
+            "budget": 1000000,
+            "staff_count": 15,
+            "players": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "team_id": 2,
+            "team_name": "Chelsea",
+            "budget": 800000,
+            "staff_count": 12,
+            "players": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30
+            ]
+        },
+        {
+            "team_id": 3,
+            "team_name": "Arsenal",
+            "budget": 900000,
+            "staff_count": 14,
+            "players": [
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45
+            ]
+        },
+        {
+            "team_id": 4,
+            "team_name": "Liverpool",
+            "budget": 950000,
+            "staff_count": 13,
+            "players": [
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60
+            ]
+        }
+    ],
+    "players": [
+        {
+            "player_id": 1,
+            "name": "Andre Onana",
+            "position": "kapus",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 88,
+                "handling": 85,
+                "passing": 82,
+                "positioning": 86
+            }
+        },
+        {
+            "player_id": 2,
+            "name": "Altay Bayindir",
+            "position": "kapus",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 82,
+                "handling": 80,
+                "passing": 75,
+                "positioning": 78
+            }
+        },
+        {
+            "player_id": 3,
+            "name": "Lisandro Martinez",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "sérült",
+            "skills": {
+                "defending": 87,
+                "tackling": 88,
+                "passing": 83,
+                "positioning": 85
+            }
+        },
+        {
+            "player_id": 4,
+            "name": "Raphael Varane",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 88,
+                "tackling": 86,
+                "passing": 82,
+                "positioning": 87
+            }
+        },
+        {
+            "player_id": 5,
+            "name": "Harry Maguire",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 82,
+                "tackling": 81,
+                "passing": 78,
+                "positioning": 80
+            }
+        },
+        {
+            "player_id": 6,
+            "name": "Luke Shaw",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 84,
+                "speed": 85,
+                "crossing": 86,
+                "passing": 85
+            }
+        },
+        {
+            "player_id": 7,
+            "name": "Casemiro",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "tackling": 89,
+                "passing": 86,
+                "positioning": 88,
+                "shooting": 80
+            }
+        },
+        {
+            "player_id": 8,
+            "name": "Bruno Fernandes",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 90,
+                "vision": 89,
+                "shooting": 85,
+                "dribbling": 84
+            }
+        },
+        {
+            "player_id": 9,
+            "name": "Mason Mount",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 85,
+                "vision": 84,
+                "shooting": 82,
+                "dribbling": 83
+            }
+        },
+        {
+            "player_id": 10,
+            "name": "Marcus Rashford",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 87,
+                "speed": 90,
+                "dribbling": 86,
+                "passing": 82
+            }
+        },
+        {
+            "player_id": 11,
+            "name": "Rasmus Hojlund",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 83,
+                "speed": 85,
+                "dribbling": 82,
+                "heading": 84
+            }
+        },
+        {
+            "player_id": 12,
+            "name": "Antony",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "dribbling": 86,
+                "speed": 85,
+                "shooting": 82,
+                "passing": 81
+            }
+        },
+        {
+            "player_id": 13,
+            "name": "Alejandro Garnacho",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "dribbling": 84,
+                "speed": 87,
+                "shooting": 80,
+                "passing": 78
+            }
+        },
+        {
+            "player_id": 14,
+            "name": "Christian Eriksen",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 87,
+                "vision": 88,
+                "shooting": 83,
+                "dribbling": 82
+            }
+        },
+        {
+            "player_id": 15,
+            "name": "Diogo Dalot",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 82,
+                "speed": 84,
+                "crossing": 83,
+                "passing": 81
+            }
+        },
+        {
+            "player_id": 16,
+            "name": "Robert Sanchez",
+            "position": "kapus",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 85,
+                "handling": 84,
+                "passing": 80,
+                "positioning": 83
+            }
+        },
+        {
+            "player_id": 17,
+            "name": "Djordje Petrovic",
+            "position": "kapus",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 80,
+                "handling": 78,
+                "passing": 75,
+                "positioning": 77
+            }
+        },
+        {
+            "player_id": 18,
+            "name": "Thiago Silva",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 88,
+                "tackling": 87,
+                "passing": 85,
+                "positioning": 89
+            }
+        },
+        {
+            "player_id": 19,
+            "name": "Reece James",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "sérült",
+            "skills": {
+                "defending": 85,
+                "speed": 86,
+                "crossing": 87,
+                "passing": 84
+            }
+        },
+        {
+            "player_id": 20,
+            "name": "Ben Chilwell",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 83,
+                "speed": 85,
+                "crossing": 86,
+                "passing": 84
+            }
+        },
+        {
+            "player_id": 21,
+            "name": "Wesley Fofana",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 84,
+                "tackling": 83,
+                "speed": 82,
+                "positioning": 81
+            }
+        },
+        {
+            "player_id": 22,
+            "name": "Malo Gusto",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 80,
+                "speed": 84,
+                "crossing": 81,
+                "passing": 79
+            }
+        },
+        {
+            "player_id": 23,
+            "name": "Enzo Fernandez",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 87,
+                "vision": 86,
+                "tackling": 83,
+                "shooting": 81
+            }
+        },
+        {
+            "player_id": 24,
+            "name": "Moises Caicedo",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "tackling": 85,
+                "passing": 83,
+                "stamina": 86,
+                "positioning": 82
+            }
+        },
+        {
+            "player_id": 25,
+            "name": "Conor Gallagher",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "passing": 82,
+                "stamina": 85,
+                "tackling": 81,
+                "shooting": 79
+            }
+        },
+        {
+            "player_id": 26,
+            "name": "Romeo Lavia",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "tackling": 81,
+                "passing": 80,
+                "stamina": 83,
+                "positioning": 79
+            }
+        },
+        {
+            "player_id": 27,
+            "name": "Raheem Sterling",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "speed": 90,
+                "dribbling": 87,
+                "shooting": 84,
+                "passing": 82
+            }
+        },
+        {
+            "player_id": 28,
+            "name": "Christopher Nkunku",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "sérült",
+            "skills": {
+                "shooting": 85,
+                "dribbling": 86,
+                "speed": 84,
+                "passing": 83
+            }
+        },
+        {
+            "player_id": 29,
+            "name": "Nicolas Jackson",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 81,
+                "dribbling": 82,
+                "speed": 86,
+                "heading": 80
+            }
+        },
+        {
+            "player_id": 30,
+            "name": "Cole Palmer",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "dribbling": 83,
+                "passing": 81,
+                "shooting": 80,
+                "speed": 82
+            }
+        },
+        {
+            "player_id": 31,
+            "name": "David Raya",
+            "position": "kapus",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 86,
+                "handling": 85,
+                "passing": 84,
+                "positioning": 85
+            }
+        },
+        {
+            "player_id": 32,
+            "name": "Aaron Ramsdale",
+            "position": "kapus",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 84,
+                "handling": 82,
+                "passing": 83,
+                "positioning": 81
+            }
+        },
+        {
+            "player_id": 33,
+            "name": "William Saliba",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 87,
+                "tackling": 86,
+                "passing": 84,
+                "positioning": 88
+            }
+        },
+        {
+            "player_id": 34,
+            "name": "Gabriel Magalhaes",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 86,
+                "tackling": 85,
+                "heading": 87,
+                "positioning": 85
+            }
+        },
+        {
+            "player_id": 35,
+            "name": "Ben White",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "defending": 84,
+                "speed": 83,
+                "passing": 85,
+                "positioning": 84
+            }
+        },
+        {
+            "player_id": 36,
+            "name": "Oleksandr Zinchenko",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 82,
+                "passing": 86,
+                "speed": 81,
+                "crossing": 83
+            }
+        },
+        {
+            "player_id": 37,
+            "name": "Takehiro Tomiyasu",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 83,
+                "tackling": 82,
+                "speed": 81,
+                "passing": 80
+            }
+        },
+        {
+            "player_id": 38,
+            "name": "Declan Rice",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "tackling": 88,
+                "passing": 86,
+                "positioning": 87,
+                "stamina": 89
+            }
+        },
+        {
+            "player_id": 39,
+            "name": "Martin Odegaard",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 89,
+                "vision": 90,
+                "shooting": 85,
+                "dribbling": 87
+            }
+        },
+        {
+            "player_id": 40,
+            "name": "Thomas Partey",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "tackling": 85,
+                "passing": 84,
+                "positioning": 86,
+                "shooting": 80
+            }
+        },
+        {
+            "player_id": 41,
+            "name": "Kai Havertz",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 84,
+                "shooting": 83,
+                "dribbling": 85,
+                "positioning": 82
+            }
+        },
+        {
+            "player_id": 42,
+            "name": "Bukayo Saka",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "dribbling": 89,
+                "speed": 88,
+                "shooting": 85,
+                "passing": 86
+            }
+        },
+        {
+            "player_id": 43,
+            "name": "Gabriel Jesus",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "sérült",
+            "skills": {
+                "shooting": 86,
+                "dribbling": 87,
+                "speed": 85,
+                "passing": 83
+            }
+        },
+        {
+            "player_id": 44,
+            "name": "Gabriel Martinelli",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "speed": 88,
+                "dribbling": 86,
+                "shooting": 84,
+                "passing": 82
+            }
+        },
+        {
+            "player_id": 45,
+            "name": "Eddie Nketiah",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 82,
+                "speed": 84,
+                "dribbling": 81,
+                "positioning": 83
+            }
+        },
+        {
+            "player_id": 46,
+            "name": "Alisson",
+            "position": "kapus",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 89,
+                "handling": 88,
+                "passing": 86,
+                "positioning": 87
+            }
+        },
+        {
+            "player_id": 47,
+            "name": "Caoimhin Kelleher",
+            "position": "kapus",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "reflexes": 82,
+                "handling": 80,
+                "passing": 78,
+                "positioning": 79
+            }
+        },
+        {
+            "player_id": 48,
+            "name": "Virgil van Dijk",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 90,
+                "tackling": 88,
+                "passing": 85,
+                "positioning": 89
+            }
+        },
+        {
+            "player_id": 49,
+            "name": "Ibrahima Konaté",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 85,
+                "tackling": 84,
+                "speed": 86,
+                "positioning": 83
+            }
+        },
+        {
+            "player_id": 50,
+            "name": "Trent Alexander-Arnold",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 90,
+                "crossing": 89,
+                "defending": 82,
+                "vision": 88
+            }
+        },
+        {
+            "player_id": 51,
+            "name": "Andy Robertson",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "sérült",
+            "skills": {
+                "defending": 85,
+                "speed": 87,
+                "crossing": 88,
+                "passing": 86
+            }
+        },
+        {
+            "player_id": 52,
+            "name": "Joe Gomez",
+            "position": "védő",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "defending": 83,
+                "speed": 85,
+                "tackling": 82,
+                "positioning": 81
+            }
+        },
+        {
+            "player_id": 53,
+            "name": "Dominik Szoboszlai",
+            "position": "középpályás",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 86,
+                "shooting": 85,
+                "vision": 87,
+                "dribbling": 84
+            }
+        },
+        {
+            "player_id": 54,
+            "name": "Alexis Mac Allister",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 85,
+                "vision": 84,
+                "tackling": 82,
+                "shooting": 83
+            }
+        },
+        {
+            "player_id": 55,
+            "name": "Curtis Jones",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "passing": 82,
+                "dribbling": 83,
+                "stamina": 84,
+                "shooting": 80
+            }
+        },
+        {
+            "player_id": 56,
+            "name": "Ryan Gravenberch",
+            "position": "középpályás",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "passing": 83,
+                "dribbling": 84,
+                "stamina": 85,
+                "tackling": 81
+            }
+        },
+        {
+            "player_id": 57,
+            "name": "Mohamed Salah",
+            "position": "támadó",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 90,
+                "dribbling": 89,
+                "speed": 88,
+                "passing": 85
+            }
+        },
+        {
+            "player_id": 58,
+            "name": "Darwin Núñez",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 84,
+                "speed": 88,
+                "heading": 85,
+                "positioning": 83
+            }
+        },
+        {
+            "player_id": 59,
+            "name": "Luis Díaz",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "sérült",
+            "skills": {
+                "dribbling": 87,
+                "speed": 86,
+                "shooting": 83,
+                "passing": 82
+            }
+        },
+        {
+            "player_id": 60,
+            "name": "Diogo Jota",
+            "position": "támadó",
+            "performance": "közepes",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 85,
+                "dribbling": 84,
+                "speed": 83,
+                "positioning": 86
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "task_id": 1,
+            "name": "Reggeli Edzés",
+            "duration": 120,
+            "successchance": "70%",
+            "impact": {
+                "stamina": "10",
+                "passing": "8",
+                "injury_chance": "20%"
+            },
+            "requirements": {
+                "staff": 3,
+                "money": 1000
+            }
+        },
+        {
+            "task_id": 2,
+            "name": "Bajnoki Mérkőzés",
+            "duration": 90,
+            "successchance": "50%",
+            "impact": {
+                "shooting": "10",
+                "passing": "10",
+                "defending": "15",
+                "injury_chance": "30%"
+            },
+            "requirements": {
+                "staff": 8,
+                "money": 5000
+            }
+        },
+        {
+            "task_id": 3,
+            "name": "Taktikai Edzés",
+            "duration": 60,
+            "successchance": "80%",
+            "impact": {
+                "vision": "15",
+                "passing": "12",
+                "injury_chance": "10%"
+            },
+            "requirements": {
+                "staff": 4,
+                "money": 2000
+            }
+        },
+        {
+            "task_id": 4,
+            "name": "Regeneráló Edzés",
+            "duration": 45,
+            "successchance": "90%",
+            "impact": {
+                "stamina": "15",
+                "injury_chance": "5%"
+            },
+            "requirements": {
+                "staff": 2,
+                "money": 1500
+            }
+        }
+    ]
+}

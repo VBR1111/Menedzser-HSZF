@@ -1,0 +1,97 @@
+{
+    "teams": [
+        {
+            "team_id": 1,
+            "team_name": "FC Barcelona",
+            "budget": 5000000,
+            "staff_count": 10,
+            "players": [
+                1,
+                2
+            ]
+        },
+        {
+            "team_id": 2,
+            "team_name": "Real Madrid",
+            "budget": 600000,
+            "staff_count": 12,
+            "players": [
+                3
+            ]
+        }
+    ],
+    "players": [
+        {
+            "player_id": 1,
+            "name": "Gerard Piqué",
+            "position": "védő",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shooting": 75,
+                "passing": 80,
+                "defending": 85,
+                "speed": 70
+            }
+        },
+        {
+            "player_id": 2,
+            "name": "Lionel Messi",
+            "positionn": "támadó",
+            "performance": "magas",
+            "physical_condition": "egészséges",
+            "skills": {
+                "shootingn": 95,
+                "passingn": 90,
+                "defending": 60,
+                "speed": 95
+            }
+        },
+        {
+            "player_id": 3,
+            "name": "karim Benzema",
+            "positionn": "támadó",
+            "performance": "magas",
+            "physical—condition": "egészséges",
+            "skills": {
+                "shooting": 90,
+                "passing": 85,
+                "defending": 50,
+                "speed": 80
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "task_id": 1,
+            "name": "edzés",
+            "durationn": 120,
+            "successchance": "50%",
+            "impact": {
+                "shooting": "10", //succes +10, fail -10
+                "passing": "10",
+                "injury_chance": "50%"
+            },
+            "requirenents": {
+                "staff": 2,
+                "money": 1000
+            }
+        },
+        {
+            "task_id": 2,
+            "name": "mérkőzésn",
+            "durationn": 90,
+            "successchance": "50%",
+            "impact": {
+                "shooting": "10",
+                "passing": "10",
+                "defending": "15",
+                "injury_chance": "65%"
+            },
+            "requirenents": {
+                "staff": 5,
+                "money": 5900
+            }
+        }
+    ]
+}
